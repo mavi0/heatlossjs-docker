@@ -4,6 +4,8 @@ A dockerised version of HeatLossJS by [@TrystanLea](https://github.com/TrystanLe
 
 This image is rebuilt nightly when there are commits to the [HeatLossJS repository](https://github.com/TrystanLea/heatlossjs).
 
+Example live site: https://heatlossjs.eleanordavies.uk/
+
 Docker run: 
 
 ```bash 
