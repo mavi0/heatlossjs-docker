@@ -7,7 +7,8 @@ COPY . /heatlossjs/heatlossjs
 # FROM nginx
 # COPY --from=0 /heatlossjs/heatlossjs /usr/share/nginx/html
 
-FROM php:8.2-cli
-COPY . /usr/src/app
-WORKDIR /usr/src/app
-CMD [ "php", "./index.php" ]
+FROM php:8.2-apache
+COPY . /var/www/html/
+
+# WORKDIR /var/www/html/
+# CMD [ "php", "./index.php" ]
