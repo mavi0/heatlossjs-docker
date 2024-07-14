@@ -1,6 +1,6 @@
 <?php 
     $v = 311;
-    $example = file_get_contents("files/midterrace.json");
+    $example = file_get_contents("heatlossjs/files/midterrace.json");
 
 ?>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
