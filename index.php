@@ -123,8 +123,8 @@
     <h2>heatloss.js example</h2>
     <i>See linked resources at the bottom for more information on how to use this tool</i>
     <br><br>
-    <script type="text/javascript" src="files/config_new.js?v=<?php echo $v; ?>"></script>
-    <link rel="stylesheet" type="text/css" href="heatlossjs/style.css?v=<?php echo $v; ?>" />
+    <script type="text/javascript" src="heatlossjs/files/config_new.js?v=<?php echo $v; ?>"></script>
+    <link rel="stylesheet" type="text/css" href="heatlossjs/heatlossjs/style.css?v=<?php echo $v; ?>" />
     <div id="heatloss"></div>
     <br><br>
     <div style="text-align:left">
@@ -147,5 +147,5 @@ var cachev = <?php echo $v; ?>;
 var config = <?php echo $example; ?>;
 </script>
 
-<script type="text/javascript" src="heatlossjs/ecodan.js?v=<?php echo $v; ?>"></script>
-<script type="text/javascript" src="heatlossjs/model.js?v=<?php echo $v; ?>"></script>
+<script type="text/javascript" src="heatlossjs/heatlossjs/ecodan.js?v=<?php echo $v; ?>"></script>
+<script type="text/javascript" src="heatlossjs/heatlossjs/model.js?v=<?php echo $v; ?>"></script>
